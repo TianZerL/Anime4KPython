@@ -1,11 +1,11 @@
-from Anime4KPython import Anime4K
+from Anime4KPython.Anime4K import Anime4K
 import time
 
 if __name__ == "__main__":
     #give arguments
     anime4k = Anime4K(passes=2,strengthColor=1/3,strengthGradient=1,fastMode=False)
     #load your image
-    anime4k.loadImage("your_image")
+    anime4k.loadImage("../Anime4K/pic/p1.png")
     #show basic infomation
     anime4k.showInfo()
     time_start = time.time()
@@ -16,4 +16,4 @@ if __name__ == "__main__":
     #show thr result by opencv
     anime4k.show()
     #save to disk
-    anime4k.saveImage("path")
+    anime4k.saveImage("../Anime4K/output.png")
