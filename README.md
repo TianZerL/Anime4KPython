@@ -19,3 +19,15 @@ There are four main arguments:
 - **strengthGradient**: Strength for pushing gradient,range 0 to 1,higher for sharper
 - **fastMode**: Faster but maybe lower quality
 
+# Other implementations
+- Go
+  - [TianZerL/Anime4KGo](https://github.com/TianZerL/Anime4KGo)
+- C++
+  - [TianZerL/Anime4KCPP](https://github.com/TianZerL/Anime4KCPP)
+- C#
+  - [shadow578/Anime4kSharp](https://github.com/shadow578/Anime4kSharp)
+  - [net2cn/Anime4KSharp](https://github.com/net2cn/Anime4KSharp)
+- Java
+  - [bloc97/Anime4K](https://github.com/bloc97/Anime4K)
+- Rust
+  - [andraantariksa/Anime4K-rs](https://github.com/andraantariksa/Anime4K-rs)
